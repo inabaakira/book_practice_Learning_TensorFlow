@@ -15,7 +15,7 @@ https://developer.nvidia.com/cuda-downloads から
 
 と選んで  
 https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-repo-ubuntu1804_10.1.105-1_amd64.deb  
-をダウンロードする。表示される Install Instructions の通り、下記を実行する
+をダウンロードする。表示される Install Instructions の通り、下記を実行する。
 - `sudo dpkg -i cuda-repo-ubuntu1804_10.1.105-1_amd64.deb`
 - `sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub`
 - `sudo apt-get update`
@@ -27,7 +27,7 @@ https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-
 
 ## Docker のインストール
 https://docs.docker.com/install/linux/docker-ce/ubuntu/ の通りインストールする。
-### docker が既にインストールされている場合は uninstall する。
+### docker が既にインストールされている場合は uninstall する
 - `sudo apt-get remove docker docker-engine docker.io containerd runc`
 ### docker-ce をインストールする
 ```

@@ -1,4 +1,4 @@
-# 環境構築
+# ubuntu-18.04 + cuda-10.1 + tensorflow-gpu の環境構築
 ## 環境
 - NVIDIA GeForce GTX 1060 6GB
 - ubuntu-18.04

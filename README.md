@@ -24,3 +24,23 @@ https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/cuda-
 終わったら再起動して動作確認をする。
 - reboot
 - nvidia-smi
+
+## Docker のインストール
+https://docs.docker.com/install/linux/docker-ce/ubuntu/ の通りインストールする。
+### docker が既にインストールされている場合は uninstall する。
+- `sudo apt-get remove docker docker-engine docker.io containerd runc`
+### docker-ce をインストールする
+- `sudo apt-get update`
+- `sudo apt-get install `
+`apt-transport-https `
+`ca-certificates `
+`curl `
+`gnupg-agent `
+`software-properties-common`
+- `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
+- `sudo add-apt-repository
+`"deb [arch=amd64] https://download.docker.com/linux/ubuntu `
+`$(lsb_release -cs) `
+`stable"`
+- `sudo apt-get update`
+- `sudo apt-get install docker-ce docker-ce-cli containerd.io`

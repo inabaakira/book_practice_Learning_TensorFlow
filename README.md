@@ -10,7 +10,7 @@ https://developer.nvidia.com/cuda-downloads から
 - Operating System: Linux
 - Architecture: x86_64
 - Distribution: Ubuntu
-- Version: 18.01
+- Version: 18.04
 - Installer Type: deb (network)
 
 と選んで  

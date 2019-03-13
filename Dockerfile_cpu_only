@@ -1,0 +1,3 @@
+From tensorflow/tensorflow:nightly-py3
+MAINTAINER inabaakira <inaba.akira@gmail.com>
+RUN mkdir -p /books

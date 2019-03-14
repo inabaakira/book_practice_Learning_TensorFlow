@@ -1,0 +1,9 @@
+FROM tensorflow/tensorflow:nightly-gpu-py3
+MAINTAINER inabaakira
+RUN mkdir -p /books
+
+#
+# docker build -t inabaakira/tensorflow .
+# docker run --runtime=nvidia -it --name Learning_TensorFlow -v /home/inaba/books/practice_book_Learning_TensorFlow:/books/practice_book_Learning_TensorFlow inabaakira/tensorflow bash
+#
+# 
